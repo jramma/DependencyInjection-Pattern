@@ -1,4 +1,3 @@
-package aaa;
 
 public class Libra implements Precio{
 	private double valor;
