@@ -1,4 +1,3 @@
-package aaa;
 
 public class Euro implements Precio{
 	private double valor;
