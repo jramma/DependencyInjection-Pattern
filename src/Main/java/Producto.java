@@ -4,8 +4,7 @@ public class Producto {
 	private String nombre;
 	private double precioEnEuros;
 	
-	// Inyeccion en el constructor>
-	// el parametro precio es interface para garantizar que sea dinamico
+	
 	public Producto(String nombre, double d) {
 		this.nombre = nombre;
 		this.precioEnEuros = d;
@@ -15,7 +14,8 @@ public class Producto {
 		return precioEnEuros;
 	}
 
-
+	// Inyeccion en el metodo convertirMoneda>
+	// el parametro precio es interface para garantizar que sea dinamico
 	public String convertirMoneda(Precio precio) {
 	
 		return nombre + precio;
