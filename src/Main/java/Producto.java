@@ -1,4 +1,3 @@
-package aaa;
 
 public class Producto {
 	private String nombre;
