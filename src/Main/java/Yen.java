@@ -1,4 +1,3 @@
-package aaa;
 
 public class Yen implements Precio{
 	private double valor;
